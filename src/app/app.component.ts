@@ -13,8 +13,4 @@ import { FormsModule } from '@angular/forms';
 })
 export class AppComponent {
   title = 'my-first-project';
-  name = 'The Humble Coder';
-  count = 3;
-  username = 'rahul';
-  isdisabled = true;
 }
