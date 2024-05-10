@@ -1,0 +1,12 @@
+<h1>Data Binding</h1>
+<!-- string Interpolation-->
+<p>{{ username }}</p>
+
+<!-- Property Binding-->
+<!-- <input type="text" [disabled]="isdisabled" /> -->
+
+<!-- Event Binding-->
+<button (click)="isdisabled = false">update Input</button>
+
+<!-- Two way Binding-->
+<input type="text" [disabled]="isdisabled" [(ngModel)]="username" />
